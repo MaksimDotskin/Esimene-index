@@ -1,0 +1,13 @@
+header{
+    color: lightblue;
+    background-color: azure;
+    width: 60%;
+
+}
+
+header h1{
+    font-family: Algerian;
+    font-size: larger;
+    letter-spacing: 0.4cm;
+    border-bottom: SOLID 1pt blue;/*dotted dashed double
+}
