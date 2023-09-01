@@ -1,0 +1,72 @@
+header{
+    color: lightblue;
+    background-color: mediumpurple;
+    width: 60%;
+
+}
+
+header h1{
+    font-family: Algerian;
+    font-size: larger;
+    letter-spacing: 0.4cm;
+    border-bottom: SOLID 1pt blue;/*dotted dashed double*/
+}
+li{
+    float:left;
+
+}
+li a{
+    display: block;
+    color:rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding:10px 20px;
+    border-right:solid 1px pink;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;/*väline vahe elementist*/
+    padding:0;/*elemndi sisu ümber ruum*/
+    overflow: hidden;
+    background-color: lightblue;
+    width: 50%;
+}
+li a:hover{
+    background-color: beige;
+    color:blue;
+    text-decoration: underline;
+}
+
+/*pöördume ul nimega nimekiri*/
+.Nimekiri{
+    list-style-type: ">";
+    margin:0;/*väline vahe elementist*/
+    padding:20px;/*elemndi sisu ümber ruum*/
+    overflow: hidden;
+    background-color: white;
+
+
+}
+img#pilt1{
+    width: 20%;
+}
+img#pilt2{
+    width: 30%;
+    border: dotted 2pt deeppink;
+}
+img#pilt3{
+    width: 45%;
+    border: solid 1pt darkgoldenrod;
+    border-radius: 60px;
+}
+main{
+    background-color: darkkhaki;
+}
+.text{
+    border:solid 1pt cadetblue;
+    border-radius: 30px;
+    margin: 30px;
+
+}
